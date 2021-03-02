@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-9 Assignments</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .container {
+        width: 90%;
+        margin: auto;
+      }
+      .ashDiv {
+        height: 170px;
+        background-color: #565656;
+      }
+      .whiteDiv {
+        background-color: #eeeeee;
+        height: 50px;
+      }
+      .smallAshDiv {
+        height: 50px;
+        background-color: #565656;
+      }
+      .alignCenter {
+        text-align: center;
+      }
+      .nameDiv {
+        background-color: #fabf27;
+        padding: 25px;
+        font-weight: bolder;
+        display: inline;
+        font-size: 35px;
+        border-radius: 30px;
+        position: absolute;
+        bottom: 85px;
+        left: 33%;
+      }
+      .imgDiv > img {
+        border-radius: 50%;
+        border: 3px dotted #fabf27;
+        width: 50%;
+      }
+      .imgDiv {
+        position: absolute;
+        bottom: 145px;
+        left: 44.5%;
+      }
+      .padding10 {
+        padding: 10px;
+      }
+      .relativePos {
+        position: relative;
+      }
+      .floatDiv {
+        float: left;
+        width: 50%;
+        border-right: 1px solid #ebebeb;
+      }
+      .styleHeading {
+        font-size: 25px;
+        color: #565656;
+      }
+      i.fa {
+        color: #c9c9c9;
+        border-radius: 50%;
+        border: 3px dotted #fabf27;
+      }
+      .centerSkills {
+        font-weight: bolder;
+      }
+      .inlineBlock {
+        display: inline-block;
+        width: 100px;
+      }
+      .inlineBlock ~ input[type="range"] {
+        padding-left: 70px;
+      }
+      .paddingLeft120 {
+        padding-left: 120px;
+      }
+      .subClass {
+        display: inline-block;
+        width: 49.5%;
+        font-weight: 900;
+      }
+      .alignRight {
+        text-align: right;
+      }
+      .paddingTop {
+        padding: 10px 0;
+      }
+      * {
+        box-sizing: border-box;
+      }
+     /* input[type="range"] {
+        overflow: hidden;
+        width: 80px;
+        -webkit-appearance: none;
+        background-color: #565656;
+      }
+      input[type="range"]::-webkit-slider-runnable-track {
+        height: 10px;
+        -webkit-appearance: none;
+        color: #fabf27;
+        margin-top: -1px;
+      }
+      input[type="range"]::-webkit-slider-thumb {
+        width: 10px;
+        -webkit-appearance: none;
+        height: 10px;
+        cursor: pointer;
+        background: #ededed;
+        box-shadow: -80px 0 0 80px #fabf27;
+      }*/
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="relativePos">
+        <div class="ashDiv"></div>
+        <div class="whiteDiv"></div>
+        <div class="smallAshDiv"></div>
+        <div class="imgDiv"><img src="images/profile.PNG" alt="profile" /></div>
+        <div class="nameDiv">Sowmya BalaAravindhan</div>
+        <div class="alignCenter padding10">
+          Ganesh Flats,Kollapakkam
+          600122|999-408-0290|saisowjava@gmail.com|www.google.com
+        </div>
+        <hr />
+      </div>
+      <div class="floatDiv">
+        <div class="subHeading">
+          <i class="fa fa-user fa-2x" aria-hidden="true"></i>
+          <span class="padding10 styleHeading">Profile</span>
+        </div>
+        <div class="padding10">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, nisi
+          porro modi eum omnis accusantium optio ad aliquid autem ut sed
+          laudantium! Consequatur hic fuga quibusdam adipisci. Pariatur,
+          accusamus dolorem.
+        </div>
+        <div class="subHeading">
+          <i class="fa fa-flask fa-2x" aria-hidden="true"></i>
+          <span class="padding10 styleHeading">Skills</span>
+        </div>
+        <div class="centerSkills padding10 paddingLeft120">
+          Technical Skills
+        </div>
+        <div>
+          <label class="inlineBlock">Javascript</label>
+          <input type="range" value="70" />
+        </div>
+        <div>
+          <label class="inlineBlock">HTML</label>
+          <input type="range" value="50" />
+        </div>
+        <div>
+          <label class="inlineBlock">CSS</label>
+          <input type="range" value="70" />
+        </div>
+        <div>
+          <label class="inlineBlock">React</label>
+          <input type="range" value="30" />
+        </div>
+        <div>
+          <label class="inlineBlock">Redux</label>
+          <input type="range" value="40" />
+        </div>
+        <div>
+          <label class="inlineBlock">Mongo</label>
+          <input type="range" value="80" />
+        </div>
+        <div>
+          <label class="inlineBlock">Deployment</label>
+          <input type="range" value="25" />
+        </div>
+
+        <div class="centerSkills padding10 paddingLeft120">
+          Addittional Skills
+        </div>
+        <div>
+          <label class="inlineBlock">Project Management</label>
+          <input type="range" value="70" />
+        </div>
+        <div>
+          <label class="inlineBlock">Recruitment</label>
+          <input type="range" value="50" />
+        </div>
+        <div>
+          <label class="inlineBlock">Business Development</label>
+          <input type="range" value="70" />
+        </div>
+        <div>
+          <label class="inlineBlock">Editing</label>
+          <input type="range" value="60" />
+        </div>
+        <div>
+          <label class="inlineBlock">Fund Rising</label>
+          <input type="range" value="30" />
+        </div>
+        <div class="padding10">
+          <div class="subHeading">
+            <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
+            <span class="padding10 styleHeading">Work experience</span>
+          </div>
+          <span class="subClass paddingTop">Event Manager</span>
+          <span class="subClass alignRight paddingTop">03/2014-02/2017</span>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+          </p>
+          <ul>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              quasi sequi repudiandae facere tempora nobis, vitae ad.
+              Reprehenderit molestias cumque autem veritatis, aperiam, iste hic
+              officiis distinctio expedita cupiditate rem.
+            </li>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              quasi sequi repudiandae facere tempora nobis, vitae ad.
+              Reprehenderit molestias cumque autem veritatis, aperiam, iste hic
+              officiis distinctio expedita cupiditate rem.
+            </li>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              quasi sequi repudiandae facere tempora nobis, vitae ad.
+              Reprehenderit molestias cumque autem veritatis, aperiam, iste hic
+              officiis distinctio expedita cupiditate rem.
+            </li>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              quasi sequi repudiandae facere tempora nobis, vitae ad.
+              Reprehenderit molestias cumque autem veritatis, aperiam, iste hic
+              officiis distinctio expedita cupiditate rem.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="floatDiv">
+        <div class="padding10">
+          <div class="subHeading">
+            <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
+            <span class="padding10 styleHeading">Work experience</span>
+          </div>
+          <span class="subClass paddingTop">Community Relations Manager</span>
+          <span class="subClass alignRight paddingTop">03/2011-02/2014</span>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+          </p>
+          <ul>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              quasi sequi repudiandae facere tempora nobis, vitae ad.
+              Reprehenderit molestias cumque autem veritatis, aperiam, iste hic
+              officiis distinctio expedita cupiditate rem.
+            </li>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              quasi sequi repudiandae facere tempora nobis, vitae ad.
+              Reprehenderit molestias cumque autem veritatis, aperiam, iste hic
+              officiis distinctio expedita cupiditate rem.
+            </li>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              quasi sequi repudiandae facere tempora nobis, vitae ad.
+              Reprehenderit molestias cumque autem veritatis, aperiam, iste hic
+              officiis distinctio expedita cupiditate rem.
+            </li>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              quasi sequi repudiandae facere tempora nobis, vitae ad.
+              Reprehenderit molestias cumque autem veritatis, aperiam, iste hic
+              officiis distinctio expedita cupiditate rem.
+            </li>
+          </ul>
+        </div>
+        <div class="padding10">
+          <div class="subHeading">
+            <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+            <span class="padding10 styleHeading">Education</span>
+          </div>
+          <span class="subClass paddingTop">Engineering Immersion Program</span>
+          <span class="subClass alignRight paddingTop">11/2018-06/2018</span>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+            quasi sequi repudiandae facere tempora nobis, vitae ad.
+            Reprehenderit molestias cumque autem veritatis, aperiam, iste hic
+            officiis distinctio expedita cupiditate rem.
+          </p>
+          <ul>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              quasi sequi repudiandae facere tempora nobis, vitae ad.
+              Reprehenderit molestias cumque autem veritatis, aperiam, iste hic
+              officiis distinctio expedita cupiditate rem.
+            </li>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              quasi sequi repudiandae facere tempora nobis, vitae ad.
+              Reprehenderit molestias cumque autem veritatis, aperiam, iste hic
+              officiis distinctio expedita cupiditate rem.
+            </li>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              quasi sequi repudiandae facere tempora nobis, vitae ad.
+              Reprehenderit molestias cumque autem veritatis, aperiam, iste hic
+              officiis distinctio expedita cupiditate rem.
+            </li>
+            <li>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+              quasi sequi repudiandae facere tempora nobis, vitae ad.
+              Reprehenderit molestias cumque autem veritatis, aperiam, iste hic
+              officiis distinctio expedita cupiditate rem.
+            </li>
+          </ul>
+          <span class="subClass paddingTop">B.A English</span>
+          <span class="subClass alignRight paddingTop">11/2001-06/2005</span>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
